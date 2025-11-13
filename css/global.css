@@ -1,70 +1,58 @@
-:root {
-    --black: #1a1a1a;
-    --light-gray: #f8f8f8;
-    --dark-red: #800000;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    line-height: 1.6;
-    color: var(--black);
-    background-color: var(--white);
-    padding-top: 80px;
-}
-
-.container {
-    max-width: 1200px; 
-    margin: 0 auto;
-    padding: 0 30px;
-}
-
-.main {
-    padding: 180px 0 100px;
-    position: relative;
-    overflow: hidden;
-    height: 300px;
-}
-
-.main-background {
-    position: absolute;
+.nav-bar {
+    background-color: white;
+    padding: 1.2rem 0;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    background-image: linear-gradient(135deg, rgba(50,50,50,0.7) 0%, rgba(75,75,75,0.6) 100%), url('../images/background.jpg');
-    background-size: cover, cover;
-    background-position: center, center;
-    background-repeat: no-repeat, no-repeat;
-    z-index: 0;
-    pointer-events: none;
+    z-index: 1000;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.08);
 }
 
-.main-background#matt {
-    background-image: linear-gradient(135deg, rgba(50,50,50,0.7) 0%, rgba(75,75,75,0.6) 100%), url('../images/matt-background.jpg');
+.nav-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.main-background#joshua {
-    background-image: linear-gradient(135deg, rgba(50,50,50,0.7) 0%, rgba(75,75,75,0.6) 100%), url('../images/background.jpg');
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
 }
 
-.main-content {
-    position: relative;
-    z-index: 1;
-    max-width: 700px;
+.company-name a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
 }
 
-.main-content h1 {
-    padding-top: 15%;
-    font-size: 3.5rem;
-    color: white;
-    margin: 0 0 20px 0;
-    line-height: 1.2;
+.nav-menu a {
+    color: var(--black);
+    text-decoration: none;
     font-weight: 700;
+    transition: color 0.3s ease;
+    padding: 0.5rem 0;
+    font-size: 0.95rem;
+    position: relative;
 }
 
-.main-content p {
-    font-size: 1.3rem;
-    color: whitesmoke;
-    margin-bottom: 40px;
-    line-height: 1.6;
+.nav-menu a:hover, .nav-menu a.active {
+    color: var(--dark-red);
+}
+
+.nav-menu a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--dark-red);
+    position: absolute;
 }
