@@ -1,0 +1,70 @@
+:root {
+    --black: #1a1a1a;
+    --light-gray: #f8f8f8;
+    --dark-red: #800000;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.6;
+    color: var(--black);
+    background-color: var(--white);
+    padding-top: 80px;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.main {
+    padding: 180px 0 100px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.main-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(135deg, rgba(50,50,50,0.7) 0%, rgba(75,75,75,0.6) 100%), url('../images/background.jpg');
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.main-background#matt {
+    background-image: linear-gradient(135deg, rgba(50,50,50,0.7) 0%, rgba(75,75,75,0.6) 100%), url('../images/matt-background.jpg');
+}
+
+.main-background#joshua {
+    background-image: linear-gradient(135deg, rgba(50,50,50,0.7) 0%, rgba(75,75,75,0.6) 100%), url('../images/background.jpg');
+}
+
+.main-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+}
+
+.main-content h1 {
+    padding-top: 15%;
+    font-size: 3.5rem;
+    color: white;
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.main-content p {
+    font-size: 1.3rem;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
