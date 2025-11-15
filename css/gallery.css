@@ -1,3 +1,17 @@
+.opening-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    background-image: url('../images/gallery/opening-image.jpg');
+}
+
+.opening-text {
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+}
+
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
