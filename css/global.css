@@ -4,6 +4,10 @@
     padding: 0 30px;
 }
 
+:root {
+    --black: #1a1a1a;
+}
+
 /* Header */
 
 .nav-bar {
