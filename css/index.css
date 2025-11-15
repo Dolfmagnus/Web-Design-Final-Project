@@ -5,11 +5,10 @@
 
 .main-background {
     position: relative;
-    height: 400px;
+    height: 600px;
     background-image: url('../images/logo.svg');
     background-size: cover;
     background-position: center;
-    border: 2px solid #333;
 }
 
 .main-content {
@@ -77,9 +76,13 @@
 }
 
 .image-background {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid #333;
     background-color: white;
+    min-height: 400px;
     background-image: url('../images/car-background1.jpg');
-    background-size: 100% 100%;
+    background-size: 50% 100%;
     background-position: right;
     background-repeat: no-repeat;
 }
