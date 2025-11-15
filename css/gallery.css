@@ -4,6 +4,12 @@
     gap: 2.5rem;
 }
 
+.gallery-grid, img {
+    height: 200px;
+    width: 25%;
+    object-fit: contain;
+}
+
 .gallery-grid-item {
     background-color: var(--white);
     padding: 2.5rem;
