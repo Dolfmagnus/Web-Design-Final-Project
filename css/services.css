@@ -1,15 +1,17 @@
 .services-heading {
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 0 40px 0;
     background-color: white;
     margin-bottom: 60px;
+    margin-top: 80px;
 }
 
 .services-heading h1 {
-    font-size: 1.8em;
+    font-size: 2.5em;
     font-weight: 700;
     text-transform: capitalize;
     color: #333;
+    margin: 0;
 }
 
 .maintinence-section,
