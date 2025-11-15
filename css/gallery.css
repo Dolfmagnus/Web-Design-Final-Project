@@ -7,7 +7,7 @@
 .gallery-grid, img {
     height: 200px;
     width: 25%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .gallery-grid-item {
