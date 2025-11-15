@@ -1,10 +1,12 @@
 .opening-image {
     width: 100%;
     height: 400px;
-    object-fit: cover;
     border-radius: 12px;
     margin-bottom: 2rem;
-    background-image: url('../images/gallery/opening-image.jpg');
+    background-image: url('../images/galleryimgs/car1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .opening-text {
