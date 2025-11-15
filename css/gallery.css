@@ -13,7 +13,6 @@
 
 .gallery-grid-item {
     background-color: var(--white);
-    padding: 2.5rem;
     border-radius: 12px;
     border: 1px solid var(--border);
     transition: all 0.3s ease;
