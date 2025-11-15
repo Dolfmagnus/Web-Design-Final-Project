@@ -1,9 +1,9 @@
 .services-heading {
     text-align: center;
-    padding: 60px 0 40px 0;
+    padding: 40px 0 40px 0;
     background-color: lightgray;
     margin-bottom: 60px;
-    margin-top: 80px;
+    margin-top: 64px;
 }
 
 .services-heading h1 {
@@ -14,9 +14,7 @@
     margin: 0;
 }
 
-.maintinence-section,
-.custom-fab-section,
-.restoration-section {
+.maintinence-section, .custom-fab-section, .restoration-section {
     margin-bottom: 40px;
     background-color: white;
     border: 2px solid #333;
@@ -39,24 +37,18 @@
     margin-right: auto;
 }
 
-.maintinence-content,
-.custom-fab-content,
-.restoration-content {
+.maintinence-content, .custom-fab-content, .restoration-content {
     max-width: 100%;
 }
 
-.maintinence-content h3,
-.custom-fab-content h3,
-.restoration-content h3 {
+.maintinence-content h3, .custom-fab-content h3, .restoration-content h3 {
     font-size: 2em;
     font-weight: 700;
     margin-bottom: 25px;
     color: #333;
 }
 
-.maintinence-content p,
-.custom-fab-content p,
-.restoration-content p {
+.maintinence-content p, .custom-fab-content p, .restoration-content p {
     font-size: 1em;
     line-height: 1.8;
     color: #666;
